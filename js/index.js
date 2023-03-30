@@ -1,6 +1,7 @@
 //const list = document.getElementById('todolist') as HTMLUListElement;
 //const input = document.getElementById('newtodo') as HTMLInputElement;
-const BACKED_ROOT_URL = 'http://localhost:3001';
+//const BACKED_ROOT_URL = 'http://localhost:3001';
+const BACKED_ROOT_URL = 'https://todo-backend-46pk.onrender.com';
 import { Todos } from "./class/Todos.js";
 const todos = new Todos(BACKED_ROOT_URL);
 const list = document.querySelector('#todolist');
